@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="Container">
+        
+       <div class="Heading">
+        <h1>Age Calculator</h1>
+       </div>
+       <!-- <div>
+        <input type="text">
+       </div> -->
+       <div class="Dob">
+        <h3>Date Of Birth</h3>
+        
+        <!-- <input type="datetime" name="" class="Date"> -->
+        <input id="inputDob"
+                   type="date"
+                   value="2000-01-01" />
+        <!-- <input type="datetime" name="" id="Month" placeholder="Month">
+        <input type="datetime" name="" id="Year" placeholder="Year"> -->
+        
+       </div>
+       <div class="Uptothisdate" >
+        <h3>Age On This Date</h3>
+        <!-- <input type="datetime" name="" id=""> -->
+        <input id="cdate"
+                   type="date"
+                   value="" />
+        <!-- <input type="datetime" name="" id="">
+        <input type="datetime" name="" id=""> -->
+       </div>
+       <p>
+
+        <!-- <button class="clear">Clear</button> -->
+        <button onclick="getDOB();">Calculate</button>
+
+       </p>
+       
+        <div id="output">
+        
+       </div>
+       
+
+    </section>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
